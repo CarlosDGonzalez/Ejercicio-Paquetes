@@ -5,6 +5,7 @@
  */
 package principal;
 
+import Ejercicio5.Fibonacci;
 import java.util.Scanner;
 import ejercicio1.Ejercicio1;
 import ejercicio2.Ejercicio2;
@@ -50,7 +51,14 @@ public class Main {
     case 4:Ejercicio4 objeto4=new Ejercicio4();
     objeto4.segundos();
     break; 
-    case 5:System.out.println("verano:");
+    case 5:int n;
+        
+        //Inicio programa
+        System.out.println("Ingrese el numero para saber la serie de Fibonacci");
+        n=leer.nextInt();
+        
+        Fibonacci f1 = new Fibonacci("fibonacci 1",n); 
+        f1.mostrarSerie();
     
     default: 
         System.out.println("la opcion no es valida:"); 

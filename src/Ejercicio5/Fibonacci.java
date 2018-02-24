@@ -4,6 +4,8 @@
  */
 package Ejercicio5;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Carlos
@@ -14,15 +16,25 @@ public class Fibonacci {
     public String nombre;
  
     
+    public Fibonacci(){
+        
+    } 
     public Fibonacci(String nombre, int tamaño){
         this.nombre = nombre;
         this.tamaño = tamaño;
     }
-
-    Fibonacci() {
-        
+    public int numeroprueba(){
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese el numero para saber la serie de Fibonacci");
+        int n=leer.nextInt();
+    return  n;
     }
+    
+        
+        //Inicio programa
+        
 
+    
     
     public void mostrarSerie(){
         System.out.println(this.nombre+" de tamaño "+this.tamaño+":");
