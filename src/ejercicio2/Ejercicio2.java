@@ -64,7 +64,9 @@ public class Ejercicio2 {
             
         }
     }
-    
+    public String toString(){
+        return ("numero = "+numero+" continuar = "+continuar+" sino = "+sino);//se usa para conocer los valores de las variables 
+        }
     
 }
     

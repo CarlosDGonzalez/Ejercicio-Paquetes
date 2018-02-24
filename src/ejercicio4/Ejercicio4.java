@@ -38,4 +38,7 @@ public class Ejercicio4 {
             System.out.println("en :"+segundosIniciales +"segundos hay "+semanas+"  semanas "+dias+" dias "+horas+" horas "+minutos +" minutos  "+segundos+" segundos");
             
   } 
+  public String toString(){
+        return ("minutos = "+minutos+" horas = "+horas+" semanas= "+semanas+" dias = "+dias);//se usa para conocer los valores de las variables 
+        }
 }

@@ -77,5 +77,7 @@ public class Fibonacci {
     public void setTamaño(int tamaño) {
         this.tamaño = tamaño;
     }
-        
+        public String toString(){
+        return ("publica2 = "+tamaño+" protegida2 = "+nombre);//se usa para conocer los valores de las variables 
+        }
 }

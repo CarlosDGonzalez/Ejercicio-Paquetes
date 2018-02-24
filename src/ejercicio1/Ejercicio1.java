@@ -36,5 +36,8 @@ public class Ejercicio1 {
         System.out.println("El promedio de "+nombre+" es: "+(sumaNota/contador));
          
      }
+     public String toString(){
+        return ("contador = "+contador+" sumanota = "+sumaNota);//se usa para conocer los valores de las variables 
+        }
     
 }

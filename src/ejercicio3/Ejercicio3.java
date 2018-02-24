@@ -35,4 +35,7 @@ public class Ejercicio3 {
                   System.out.println("Tu categoria es veteranos");
         }
     }
+    public String toString(){
+        return ("edad = "+edad);//se usa para conocer los valores de las variables 
+        }
 }
