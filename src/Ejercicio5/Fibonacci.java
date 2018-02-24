@@ -38,8 +38,10 @@ public class Fibonacci {
     
     public void mostrarSerie(){
         System.out.println(this.nombre+" de tamaño "+this.tamaño+":");
+        int pos=1;
         for (int i = 0; i < tamaño; i++) {
-            System.out.print(fibonacci(i)+" ");
+            System.out.print(fibonacci(i)+"("+pos+")"+" ");
+            pos++;
         }
         System.out.println();
     }
