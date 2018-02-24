@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Andres
+ * @author Sergio
  */
 public class Ejercicio1 {
     int contador=0;
