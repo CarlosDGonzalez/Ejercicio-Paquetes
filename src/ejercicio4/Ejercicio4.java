@@ -12,15 +12,18 @@ import java.util.Scanner;
  * @author Andres
  */
 public class Ejercicio4 {
-    public Ejercicio4() {
-        // TODO code application logic here
-    
     int segundos,segundosIniciales;
     int minutos;
     int horas;
     int semanas;
     int dias;
     Scanner leer3=new Scanner (System.in);
+    public Ejercicio4() {
+        // TODO code application logic here
+                
+}
+  public void segundos(){      
+    
      System.out.println("dame el numero de segundos :");
             segundos=leer3.nextInt();
             segundosIniciales=segundos;
@@ -34,7 +37,5 @@ public class Ejercicio4 {
             segundos=segundos%60;
             System.out.println("en :"+segundosIniciales +"segundos hay "+semanas+"  semanas "+dias+" dias "+horas+" horas "+minutos +" minutos  "+segundos+" segundos");
             
-            
-}
-    
+  } 
 }

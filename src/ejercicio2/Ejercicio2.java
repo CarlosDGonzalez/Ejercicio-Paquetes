@@ -12,14 +12,17 @@ import java.util.Scanner;
  * @author Andres
  */
 public class Ejercicio2 {
-    
-        Scanner leer=new Scanner (System.in);
+    Scanner leer=new Scanner (System.in);
         // TODO code application logic here
     
     int numero;
     int continuar=1;
     int sino=1;
-    public Ejercicio2(){
+    
+        
+    public Ejercicio2(){}
+    
+    public void estacionDelMes(){
     System.out.println("ingrese el numero del mes :");
             numero=leer.nextInt();
     for(int i=1;sino==1;i++)
@@ -61,6 +64,7 @@ public class Ejercicio2 {
             
         }
     }
+    
     
 }
     

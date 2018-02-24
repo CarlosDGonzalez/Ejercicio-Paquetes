@@ -39,13 +39,16 @@ public class Main {
     switch (numero)
     { 
     case 1:Ejercicio1 objeto1=new Ejercicio1();
-        
+    objeto1.promedio();        
     break;  
     case 2:Ejercicio2 objeto2=new Ejercicio2();
+    objeto2.estacionDelMes();
     break;
     case 3:Ejercicio3 objeto3=new Ejercicio3();
+    objeto3.categoria();
     break;
     case 4:Ejercicio4 objeto4=new Ejercicio4();
+    objeto4.segundos();
     break; 
     case 5:System.out.println("verano:");
     

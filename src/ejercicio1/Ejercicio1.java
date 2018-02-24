@@ -12,12 +12,16 @@ import java.util.Scanner;
  * @author Andres
  */
 public class Ejercicio1 {
-     public  Ejercicio1() {
-        int contador=0;
+    int contador=0;
         float sumaNota=0F,nota;        
         int sino=1;
         String nombre;
         Scanner leer=new Scanner (System.in);
+     public  Ejercicio1() {       
+            
+    }
+     public void promedio(){
+         
         System.out.println("Escriba el nombre del alumno");
         nombre=leer.nextLine();
         for(int i=1;sino==1;i++)
@@ -30,7 +34,7 @@ public class Ejercicio1 {
             sino=leer.nextInt();
         }
         System.out.println("El promedio de "+nombre+" es: "+(sumaNota/contador));
-            
-    }
+         
+     }
     
 }

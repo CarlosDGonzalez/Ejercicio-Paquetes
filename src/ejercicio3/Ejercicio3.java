@@ -12,10 +12,13 @@ import java.util.Scanner;
  * @author Andres
  */
 public class Ejercicio3 {
-    public  Ejercicio3() {
-        int edad;
+    int edad;
         
         Scanner leer=new Scanner (System.in);
+    public  Ejercicio3() {
+    }
+    public void categoria(){
+                
         
         System.out.println("Ingrese su edad para saber la categoria a la que pertenece");
         edad=leer.nextInt();
@@ -32,5 +35,4 @@ public class Ejercicio3 {
                   System.out.println("Tu categoria es veteranos");
         }
     }
-    
 }
